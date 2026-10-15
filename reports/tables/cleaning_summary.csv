@@ -1,0 +1,9 @@
+step,rows_before,rows_after,rows_dropped
+0_raw_input,43739,43739,0
+1_drop_duplicates,43739,43739,0
+2_strip_whitespace,43739,43739,0
+3_nan_strings_to_real_nan,43739,43739,0
+4_agent_age_outside_18_65,43739,43701,38
+5_agent_rating_outside_1.0_5.0,43701,43648,53
+6_zero_coordinates,43648,40153,3495
+"7_delivery_time_iqr_[-15.0,265.0]",40153,40079,74

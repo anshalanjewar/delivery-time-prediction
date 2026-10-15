@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (keep raw, ignore large processed)
+data/processed/*.csv
+data/processed/*.pkl
+data/processed/*.parquet
+!data/raw/.gitkeep
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Reports (keep figures and tables committed)
+# reports/figures/
+# reports/tables/
+models/RandomForest.pkl

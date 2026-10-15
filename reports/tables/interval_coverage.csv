@@ -1,0 +1,2 @@
+target_coverage,empirical_coverage,avg_interval_width_min,median_interval_width_min,n_test
+0.8,0.7716,55.64,54.38,6012

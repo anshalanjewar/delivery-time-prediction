@@ -1,0 +1,5 @@
+model,variant,mae,rmse,r2,best_params,search_time_s
+LightGBM,default,17.2257,22.1321,0.818422,,
+LightGBM,tuned,16.8835,21.8151,0.823587,"{'model__subsample': 1.0, 'model__reg_lambda': 0.01, 'model__reg_alpha': 0.01, 'model__num_leaves': 255, 'model__n_estimators': 800, 'model__min_child_samples': 30, 'model__max_depth': 8, 'model__learning_rate': 0.01, 'model__colsample_bytree': 0.8}",349.9
+XGBoost,default,17.2323,22.1772,0.817682,,
+XGBoost,tuned,16.8955,21.8306,0.823336,"{'model__subsample': 0.9, 'model__reg_lambda': 2, 'model__reg_alpha': 0.05, 'model__n_estimators': 800, 'model__min_child_weight': 3, 'model__max_depth': 8, 'model__learning_rate': 0.01, 'model__gamma': 0, 'model__colsample_bytree': 0.8}",85.2

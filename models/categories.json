@@ -1,0 +1,45 @@
+{
+  "Weather": [
+    "Cloudy",
+    "Fog",
+    "Sandstorms",
+    "Stormy",
+    "Sunny",
+    "Windy"
+  ],
+  "Traffic": [
+    "High",
+    "Jam",
+    "Low",
+    "Medium"
+  ],
+  "Vehicle": [
+    "motorcycle",
+    "scooter",
+    "van"
+  ],
+  "Area": [
+    "Metropolitian",
+    "Other",
+    "Semi-Urban",
+    "Urban"
+  ],
+  "Category": [
+    "Apparel",
+    "Books",
+    "Clothing",
+    "Cosmetics",
+    "Electronics",
+    "Grocery",
+    "Home",
+    "Jewelry",
+    "Kitchen",
+    "Outdoors",
+    "Pet Supplies",
+    "Shoes",
+    "Skincare",
+    "Snacks",
+    "Sports",
+    "Toys"
+  ]
+}
